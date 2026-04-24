@@ -1,0 +1,51 @@
+# AI Video Generator - Python Dependencies
+# Core web framework and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database and ORM
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+alembic==1.12.1
+
+# HTTP client for external API calls
+httpx==0.25.2
+
+# File upload handling
+python-multipart==0.0.6
+
+# Data validation and serialization
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Asynchronous support
+asyncio==3.4.3
+anyio==3.7.1
+
+# Environment variables
+python-dotenv==1.0.0
+
+# CORS middleware
+# (included with FastAPI)
+
+# Logging
+loguru==0.7.2
+
+# Date/time handling
+python-dateutil==2.8.2
+
+# JSON handling
+orjson==3.9.10
+
+# Rate limiting
+slowapi==0.1.9
+
+# Testing (optional, for development)
+pytest==7.4.3
+pytest-asyncio==0.23.2
+httpx==0.25.2  # Also used for testing
+
+# Development tools (optional)
+black==23.11.0
+ruff==0.1.6
+mypy==1.7.1
